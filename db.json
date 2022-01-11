@@ -1,0 +1,28 @@
+{
+  "clients": [
+    {
+      "nameValue": "Jorge",
+      "company": "Wunderman Thompson",
+      "email": "jorgeedugutima15@wundermanthompson.com",
+      "phone": "83985660",
+      "notes": "The client want to buy a pro controller, zelda edition.",
+      "id": 1
+    },
+    {
+      "nameValue": "John",
+      "company": "British Star",
+      "email": "john@Bstar.com",
+      "phone": "33449856",
+      "notes": "",
+      "id": 2
+    },
+    {
+      "nameValue": "Sara",
+      "company": "Sarita's Bakery",
+      "email": "ssinaisa@sBakery.com",
+      "phone": "33448832",
+      "notes": "She needs a new oven.",
+      "id": 3
+    }
+  ]
+}
