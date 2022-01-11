@@ -6,8 +6,8 @@ import NewClient from './pages/NewClient'
 import EditClient from './pages/EditClient'
 import ViewClient from './pages/ViewClient';
 
+//'Prod' url VITE_API_URL=https://my-json-server.typicode.com/Gutima15/crudsClient_UdemyCourse/clients
 function App() {
-  
   return (
     <BrowserRouter>
       <Routes>

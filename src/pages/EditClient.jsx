@@ -10,7 +10,7 @@ const EditClient = () => {
     useEffect(()=>{
         const getClient = async() =>{
             try{
-                const url = `http://localhost:4000/clients/${id}`;
+                const url = `${import.meta.env.VITE_API_URL}/${id}`;
                 const answer = await fetch(url);
                 const consult = await answer.json();
                 setClient(consult);

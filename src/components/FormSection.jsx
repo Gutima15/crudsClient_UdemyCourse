@@ -22,7 +22,7 @@ const FormSection = ({client, loading}) => {
         try{  
             let answer;
             if(client.id){ //Edit
-                const url = `http://localhost:4000/clients/${client.id}`;
+                const url = `${import.meta.env.VITE_API_URL}/${client.id}`;
                 answer = await fetch(url, {
                     method: 'PUT',
                     body: JSON.stringify(values),
@@ -31,7 +31,7 @@ const FormSection = ({client, loading}) => {
                     }
                 });
             } else { //Create
-                const url = 'http://localhost:4000/clients';
+                const url = import.meta.env.VITE_API_URL;
                 answer = await fetch(url, {
                     method: 'POST',
                     body: JSON.stringify(values),
